@@ -15,7 +15,7 @@ button {
   display: block;
   text-align: right;
 }
-.wrapper .wrapper--img {
+.wrapper .wrapper--image {
   width: 100%;
 }
 .wrapper .link {
@@ -132,7 +132,7 @@ button {
 }
 
 /* Completed */
-.task-list .task-list--completed .todo-wrapper--label {
+.task-list__completed .todo-wrapper--label {
   text-decoration: line-through;
   color: #888;
 }
