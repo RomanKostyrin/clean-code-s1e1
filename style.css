@@ -1,5 +1,6 @@
 /* Basic Style */
-input, button {
+input,
+button {
   outline: none;
 }
 
@@ -22,7 +23,7 @@ input, button {
 }
 
 @media (max-width: 768px) {
-  .wrapper { 
+  .wrapper {
     text-align: center;
   }
 }
@@ -34,7 +35,7 @@ input, button {
 .todo-wrapper--item {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .text-container {
   display: flex;
@@ -43,7 +44,8 @@ input, button {
   margin: 0;
   padding: 0px;
 }
-.task-list--item, .header {
+.task-list--item,
+.header {
   list-style: none;
 }
 .button {
@@ -118,7 +120,7 @@ input, button {
   width: 226px;
 }
 .task-list--item > .todo-wrapper--input {
-  width: 226px
+  width: 226px;
 }
 .button__delete .button--image {
   height: 2em;
@@ -131,18 +133,18 @@ input, button {
 
 /* Completed */
 .task-list .task-list--completed .todo-wrapper--label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-list .task-list--item .todo-wrapper--input {
-  display: none
+  display: none;
 }
 
 .task-list .task-list--item__edit .todo-wrapper--input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-list .task-list--item__edit .todo-wrapper--label {
